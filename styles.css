@@ -93,7 +93,10 @@ input[type="radio"] {
 }
 section .content {
   display: none;
-  background: #808080;
+  background: #1b1b1b;
+  text-align: justify;
+  border-radius: 5px;
+
   color: white;
 }
 #school:checked ~ section .content-1,
@@ -102,6 +105,7 @@ section .content {
 #hobby:checked ~ section .content-4,
 #blog:checked ~ section .content-5 {
   display: block;
+  padding: 0px 10px;
 }
 section .content .title {
   font-size: 21px;
