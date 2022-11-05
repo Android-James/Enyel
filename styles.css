@@ -107,26 +107,45 @@ section .content {
 #blog:checked ~ section .content-5 {
   display: block;
   padding: 0px 10px 10px;
-}
-section .content .title {
-  font-size: 50px;
-  font-weight: 700;
-  margin: 30px 0 10px 0;
-  padding: 10px;
-  text-align: center;
-  color: white;
+  /* padding: 10px 10px 10px ; */
 }
 
-section .content .logo{
-  display: flex;
-  width: 250px;
-  height: 250px;
-  margin-left: auto;
-  margin-right: auto;
+section .content .banner_school{
+  position: relative;
+  background-image: url(/imgs/banner.png);
+  /* opacity: 0.3; */
+  top: 20px;
+  width: auto;
+  height: 600px;
+  font-size: 47px;
+  font-weight: 650;
+  background-size:cover;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+section .content .banner_course{
+  position: relative;
+  background-image: url(/imgs/office.jpg);
+  /* opacity: 0.3; */
+  top: 20px;
+  width: auto;
+  height: 600px;
+  font-size: 47px;
+  font-weight: 650;
+  background-size:cover;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
 }
 
 section .content p {
-  margin-top: 20px;
+  margin: 10px;
   text-align: justify;
   text-indent: 20px;
 }
